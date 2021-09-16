@@ -51,7 +51,7 @@ PathProviderPlatform get _platform {
       if (Platform.isLinux) {
         PathProviderPlatform.instance = PathProviderLinux();
       } else if (Platform.isWindows) {
-        print("is not impl")
+        print("is not impl");
       }
     }
     _manualDartRegistrationNeeded = false;
