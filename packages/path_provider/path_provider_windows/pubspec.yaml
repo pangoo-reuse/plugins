@@ -17,13 +17,13 @@ flutter:
         pluginClass: none
 
 dependencies:
-  ffi: ^1.0.0
+  ffi: ^1.1.2
   flutter:
     sdk: flutter
   meta: ^1.3.0
   path: ^1.8.0
   path_provider_platform_interface: ^2.0.0
-  win32: ^2.0.0
+  win32: ^2.2.9
 
 dev_dependencies:
   flutter_test:
