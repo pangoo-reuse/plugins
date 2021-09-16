@@ -20,8 +20,7 @@ flutter:
         default_package: path_provider_macos
       linux:
         default_package: path_provider_linux
-      windows:
-        default_package: path_provider_windows
+
 
 dependencies:
   flutter:
@@ -29,7 +28,7 @@ dependencies:
   path_provider_linux: ^2.0.0
   path_provider_macos: ^2.0.0
   path_provider_platform_interface: ^2.0.0
-  path_provider_windows: ^2.0.0
+
 
 dev_dependencies:
   flutter_driver:
